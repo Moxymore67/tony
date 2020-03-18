@@ -87,6 +87,12 @@
 	font-size: 34px;
 }
 
+.cv-age {
+	color: #d0d0d0;
+	text-align: center;
+	font-size: 16px;
+}
+
 .tony-subtitle {
 	font-size: 16px;
 	text-align: center;
@@ -100,19 +106,19 @@
 
 @keyframes animate {
 	0% {
-		content: "Butcher specialist";
+		content: "am a Developper";
 	}
 	25% {
-		content: "Cocaine consumer";
+		content: "love PHP";
 	}
 	50% {
-		content: "Cocaine dealer";
+		content: "am UX/UI oriented";
 	}
 	75% {
-		content: "Mafia chief";
+		content: "am a high-tech enthousiast";
 	}
 	100% {
-		content: "Specialist Butcher";
+		content: "am a Developper";
 	}
 }
 
@@ -286,8 +292,8 @@
 
 .image-hover {
 	border: 10px solid #fff;
-	box-shadow: 0px 2px 3px black;
-	-moz-box-shadow: 0px 2px 3px black;
+	box-shadow: 0 2px 3px black;
+	-moz-box-shadow: 0 2px 3px black;
 	cursor: pointer;
 }
 
@@ -384,7 +390,7 @@
   }
   #button::after {
 	content: "\f077";
-	font-family: FontAwesome;
+	font-family: FontAwesome, serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2em;
@@ -440,7 +446,7 @@
 		flex-direction: column;
 	}
 	.header {
-		position: absolute;
+		position: fixed;
 		height: 323px;
 		width: 80px;
 		border-radius: 5px;

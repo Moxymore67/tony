@@ -1,0 +1,8 @@
+<?php
+/**
+ * FOOTER
+ */
+?>
+
+</body>
+</html>
