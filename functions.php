@@ -19,8 +19,8 @@ function cvMyAge($date) { // Y-m-d format
         }
         elseif ($dob[2] == $now[2]) { // Happy Birthday!
             $dif;
-        };
-    };
+        }
+    }
     return $dif;
 }
 
@@ -28,6 +28,5 @@ function cvMyAge($date) { // Y-m-d format
  * Multiple spaces and new lines replaced with a single space
  */
 function cvOneSpaceOnlyForString($string) {
-    $str = preg_replace('/\s+/', ' ', trim($string));
-    return $str;
+    return preg_replace('/\s+/', ' ', trim($string));
 }
