@@ -1,43 +1,19 @@
-<h1>C.V. of Tony MONTANA</h1>
-
-<h2>Contributors</h2>
-
-Alexandre MARK    |   Mooks   |   Github : Moxymore67
-Mohammed KHELLAFI |   Moha    |   Github : mohakhlf
-Vincent Fritsch  	|   Vince   |   Github : Vincentfritsch
+<h1>Alexandre MARK | Resume</h1>
 
 <h2>What is this Git about ?</h2>
 
-We created a fictive online Curriculum Vitae from Tony MONTANA.
-This is a static web site.
+This Git represents the continuation of my first project at the Wild Code School @ Strasbourg, in which I first created a fictiv resume, and converting now into a my personnal one.
 
-Link : https://docs.google.com/presentation/d/1V-bw-p7Sh4Tvp3SrEWb3j5XPcw9Pn5QmqJuSiTLWy2Y/edit#slide=id.p
-
-<h2>Language use and logicial used</h2>
+<h2>Languages and softwares used</h2>
 
     • HTML 5
     • CSS 3
+<li>JS</li>
     • Codepen
-    • Visual Studio Code
+    • PHPStorm
     • Git ;-) & GitHub
 
+<h2>Versions</h2>
 
-<h2>When have we done it ?</h2>
-
-We created this website during mars 9th and mars 13th 2020.
-
-
-<h2>Version</h2>
-
-V.1.0.0 - Initial release
-
-
-<h2>Where we were ?</h2>
-
-This project was our first project for the Wild Code School in Strasbourg.
-
-
-<h2>Progression</h2>
-
-In progress... Next week, we're going to make this website dynamic thanks to PHP.
-See you soon...
+20/03/2020 - v2.0.0 - From static to dynamic (PHP 7.3)
+15/03/2020 - v1.0.0 - Initial release (static website)
