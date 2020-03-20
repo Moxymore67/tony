@@ -7,7 +7,7 @@ $lang = [];
 $lang['PAGE_LANG']              =   "fr-FR";
 $lang['PAGE_TITLE']             =   'CV | Alexandre MARK';
 $lang['PAGE_DESCRIPTION']       =   "Bienvenu sur mon CV. Je m'appelle Alexandre
-                                    MARK, developpeur junior plein
+                                    MARK, développeur junior plein
                                     d'enthousiasme. J'espère que vous prendrez
                                     autant de plaisir à parcourir ce site web
                                     que j'en ai eu à le créer.";

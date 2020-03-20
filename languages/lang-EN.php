@@ -23,11 +23,10 @@ $lang['MENU_WHO']               =   'Who am I ?';
 
 // About Me Page
 $lang['CONTENT_ABOUT_ME']       =   'About Me';
-$lang['CONTENT_ABOUT_TEXT']     =
-'My name is Alexandre MARK, junior developper with a lot of enthousiasm. After
-several years of work in a total different branch than coding, I decided to take
-my destiny in hands in order to work with passion and not only to pay my
-bills!';
-$lang['CONTENT_ABOUT_TEXT_2']   =
-"Learning the code during 4 years, I decided to professionalize my passion. I'm
- yet at the Wild Code School Strasbourg in a PHP backend developer training.";
+$lang['CONTENT_ABOUT_TEXT']     =   'My name is Alexandre MARK, junior
+developper with a lot of enthousiasm. After several years of work in a total
+different branch than coding, I decided to take my destiny in hands in order to
+work with passion and not only to pay my bills!';
+$lang['CONTENT_ABOUT_TEXT_2']   = "Learning the code during 4 years, I decided
+to professionalize my passion. I'm yet at the Wild Code School Strasbourg in a
+PHP backend developer training.";

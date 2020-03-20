@@ -1,0 +1,45 @@
+<section class="content-main-card">
+    <section class="main-card-container">
+        <div class="main-header">
+            <img alt="Profile's background"
+                 class="profile-background"
+                 src="https://i.ibb.co/br01spM/tony-bg.png">
+            <img alt="Profile's picture | Alexandre MARK"
+                 class="profile-picture top-negative"
+                 src="https://i.ibb.co/VHDBrk0/tony-profile.jpg">
+            <h1 class="profile-name top-negative">
+                Alexandre MARK
+            </h1>
+            <div class="profile-age top-negative">
+                <?php echo cvMyAge('07-02-1984') . " ans";?>
+            </div>
+            <div class="profile-subtitle top-negative">
+                I <span class="profile-subtitle-span"></span>
+            </div>
+            <div class="profile-social top-negative">
+                <a class="profile-social-item" href="https://www.facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="profile-social-item" href="https://www.twitter.com">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a class="profile-social-item"
+                   href="https://www.linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+        <a id="button"></a>
+        <footer class="footer">
+            <a class="footer-item" href="#">
+                <span class="link"><?php echo $lang['MENU_DOWNLOAD']; ?></span>
+                <i class="fas fa-download"></i>
+            </a>
+            <a id="footer-contact" class="footer-item" href="#content-contact">
+                <span class="link"><?php echo $lang['MENU_WHO']; ?></span>
+                <i class="fas fa-user-tie"></i>
+            </a>
+        </footer>
+
+    </section>

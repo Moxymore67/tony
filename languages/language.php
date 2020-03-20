@@ -19,4 +19,3 @@ switch ($lang) {
         $lang_file = 'lang-EN.php';
 }
 include_once $lang_file;
-?>

@@ -1,13 +1,516 @@
-.tony-body {
-	color: rgba(255, 255, 255, 0.55);
-	background: #26262d;
-	font-family: 'Poppins', sans-serif;
-	margin: 0 8px;
+/*! destyle.css v1.0.11 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+
+/* Reset box-model
+   ========================================================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Remove gray overlay on links for iOS.
+ */
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-webkit-tap-highlight-color: transparent; /* 3*/
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+	display: block;
+}
+
+/* Vertical rhythm
+   ========================================================================== */
+
+p,
+table,
+blockquote,
+address,
+pre,
+iframe,
+form,
+figure,
+dl {
+	margin: 0;
+}
+
+/* Headings
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	margin: 0;
+}
+
+/* Lists (enumeration)
+   ========================================================================== */
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* Lists (definition)
+   ========================================================================== */
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+	box-sizing: content-box; /* 1 */
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+	border: 0;
+	border-top: 1px solid;
+	margin: 0;
+	clear: both;
+	color: inherit;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: inherit; /* 2 */
+}
+
+address {
+	font-style: inherit;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+	color: inherit;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: inherit; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+	border-style: none;
+	vertical-align: bottom;
+}
+
+embed,
+object,
+iframe {
+	border: 0;
+	vertical-align: bottom;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Reset form fields to make them styleable
+ * 1. Reset radio and checkbox to preserve their look in iOS.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	-webkit-appearance: none;
+	appearance: none;
+	vertical-align: middle;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border-radius: 0;
+	text-align: inherit;
+}
+
+[type='checkbox'] {
+	/* 1 */
+	-webkit-appearance: checkbox;
+	appearance: checkbox;
+}
+
+[type='radio'] {
+	/* 1 */
+	-webkit-appearance: radio;
+	appearance: radio;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+	/* 1 */
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+	/* 1 */
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+button[disabled],
+[type='button'][disabled],
+[type='reset'][disabled],
+[type='submit'][disabled] {
+	cursor: default;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Reset to invisible
+ */
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Remove the padding in IE 10.
+ */
+
+[type='checkbox'],
+[type='radio'] {
+	padding: 0; /* 1 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the outline style in Safari.
+ */
+
+[type='search'] {
+	outline-offset: -2px; /* 1 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/**
+ * Clickable labels
+ */
+
+label[for] {
+	cursor: pointer;
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+/* Table
+   ========================================================================== */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption {
+	text-align: left;
+}
+
+td,
+th {
+	vertical-align: top;
+}
+
+th {
+	text-align: left;
+	font-weight: bold;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+	display: none;
+}
+
+/*
+	========================================================================= */
+
+/* Generic */
+p, ul {
+	font-size: 16px;
+	margin: 20px 0 30px 0;
+	line-height: 26px;
+}
+
+h2 {
+	font-size: 22px;
+	margin: 10px 0 10px 0;
+	padding-top: 7px;
+	padding-left: 3px;
+	font-weight: bold;
 }
 
 .top-negative {
 	top: -5%;
 	position: relative;
+}
+
+
+/* Body */
+.main-body {
+	color: rgba(255, 255, 255, 0.55);
+	background: #26262d;
+	font-family: 'Poppins', sans-serif;
+	margin: 0 8px;
 }
 
 /* Header */
@@ -24,13 +527,13 @@
 	box-shadow: black 1px 1px 50px;
 }
 
-.tony-nav {
+.main-nav {
 	margin-top: 10px;
 	display: flex;
 	justify-content: center;
 }
 
-.tony-nav-item {
+.main-nav-item {
 	display: flex;
 	flex-direction: column;
 	color: white;
@@ -40,35 +543,35 @@
 	border-right: solid 1px #676767c7;
 }
 
-.tony-nav-item:last-child {
+.main-nav-item:last-child {
 	border: none
 }
 
-.tony-nav-item span {
+.main-nav-item span {
 	font-size: 12px;
 	margin-top: 5px;
 }
 
-.tony-nav-item i {
+.main-nav-item i {
 	font-size: 30px;
 }
 
 /* Main content design */
 
-.main {
+.main-header {
 	background: #31313a;
 	height: calc(100vh - 70px);
 	position: relative;
 }
 
-.background-profile {
+.profile-background {
 	margin-top: 70px;
 	width: 100%;
 }
 
-/* Tony profile */
+/* Profile */
 
-.tony-profile-main {
+.profile-picture {
 	width: 30%;
 	height: auto;
 	border-radius: 50%;
@@ -80,26 +583,26 @@
 	position: relative;
 }
 
-.tony-name {
+.profile-name {
 	margin-top: 20px;
 	color: white;
 	text-align: center;
 	font-size: 34px;
 }
 
-.cv-age {
+.profile-age {
 	color: #d0d0d0;
 	text-align: center;
 	font-size: 16px;
 }
 
-.tony-subtitle {
+.profile-subtitle {
 	font-size: 16px;
 	text-align: center;
 	color: #ff9800;
 }
 
-.tony-subtitle-span:before {
+.profile-subtitle-span:before {
 	content: '';
 	animation: animate infinite 8s;
 }
@@ -122,21 +625,21 @@
 	}
 }
 
-/* Tony social*/
+/* Social*/
 
-.tony-social {
+.profile-social {
 	display: flex;
 	justify-content: center;
 }
 
-.tony-social-item {
+.profile-social-item {
 	text-decoration: none;
 	width: 24px;
 	height: 24px;
 	margin: 20px 5px;
 }
 
-.tony-social-item i {
+.profile-social-item i {
 	text-decoration: none;
 	color: white;
 	font-size: 24px;
@@ -153,7 +656,7 @@
 	border-radius: 0 0 5px 5px;
 }
 
-.tony-footer-item {
+.footer-item {
 	display: flex;
 	flex-direction: row;
 	color: white;
@@ -165,40 +668,43 @@
 	font-size: 12px;
 }
 
-.tony-footer-item span {
+.footer-item span {
 	padding-right: 15px;
 }
 
-.tony-footer-item:first-child {
+.footer-item:first-child {
 	border-right: solid 1px #676767c7;
 }
 
-.tony-footer-item {
+.footer-item {
 	border-top: solid 1px #676767c7;
 }
 
 /* More infos */
+
+#content-contact, #content-portfolio, #content-resume {
+	display: none;
+}
 
 .single-img-container img {
 	width: 100%;
 	height: auto;
 }
 
-.tony-more-info {
+.profile-more-info {
 	position: relative;
 	background: #31313a;
-	width: calc(100% - 60px);
 	padding: 30px;
 	margin: 20px 0;
 	border-radius: 5px;
 }
 
-.soft-container, .hard-container, .about-container {
+.soft-container, .hard-container, .about-container, .resume-container, .portfolio-container, .contact-container {
 	position: relative;
 	margin-bottom: 80px;
 }
 
-.tony-about-me:before, .tony-soft-skills:before, .tony-hard-skills:before, .tony-skills:before, h2.ind-main-title:before {
+.h2-main:before, .soft-skills:before, .hard-skills:before, .h2-skills:before, h2.resume-main-title:before {
 	content: '';
 	position: absolute;
 	left: -10px;
@@ -209,43 +715,43 @@
 	border-radius: 50%;
 }
 
-.tony-birth, .tony-adress, .tony-email {
+.birth, .adress, .email {
 	text-align: left;
 }
 
 /* Gradient borders */
 
-.dat_fct:before {
+.resume-date-functions:before {
 	content: "";
 	background-image: linear-gradient(to right, #ffffff52, #5e8e629e);
 	height: 2px;
 	width: 100%;
 	position: absolute;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
-.dat_fct:after {
+.resume-date-functions:after {
 	content: "";
 	background-image: linear-gradient(to right, #ffffff52, #5e8e629e);
 	height: 2px;
 	width: 100%;
 	position: absolute;
-	margin-top: -20px;
+	margin-top: -25px;
 }
 
-/* CV */
+/* Resume */
 
-.dat_fct {
+.resume-date-functions {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.dat_fct p {
+.resume-date-functions p {
 	text-align: right;
 }
 
-.dat_fct p:first-child {
+.resume-date-functions p:first-child {
 	font-weight: bold;
 	font-style: italic;
 	text-align: left;
@@ -345,29 +851,29 @@
 }
 
 /* Contact */
-.form-item input, .form-item select, .form-item textarea{
+.contact-form-item input, .contact-form-item select, .contact-form-item textarea{
   width: 100%;
   height: 30px;
   border-radius: 5px;
 }
 
-.form-item textarea{
+.contact-form-item textarea{
   height: 200px;
 }
 
-.form-item select{
+.contact-form-item select{
   height: 40px;
   margin: 0;
   width: calc(100% + 5px);
 }
 
-.form-button{
+.contact-form-button{
   float: right;
   height: 30px;
   border-radius: 5px;
 }
 
-.tony-form{
+.contact-form{
   margin-top: 40px;
 }
 
@@ -419,29 +925,29 @@
 /* 576px - 768px - 992px - 1200px */
 
 @media screen and (min-width: 576px) {
-	.tony-nav-item span {
+	.main-nav-item span {
 		font-size: 16px;
 		margin-top: 2px;
 	}
-	.tony-social-item {
+	.profile-social-item {
 		text-decoration: none;
 		width: 26px;
 		height: 26px;
 	}
-	.tony-social-item i {
+	.profile-social-item i {
 		font-size: 26px;
 	}
-	.tony-footer-item {
+	.footer-item {
 		font-size: 16px;
 	}
 }
 
 @media screen and (min-width: 768px) {
-	.tony-body {
+	.main-body {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.tony-nav, .header {
+	.main-nav, .header {
 		display: flex;
 		flex-direction: column;
 	}
@@ -452,10 +958,10 @@
 		border-radius: 5px;
 		margin-left: calc(((100vw - 600px) / 2) - 100px);
 	}
-	.tony-nav {
+	.main-nav {
 		margin-top: 0;
 	}
-	.tony-nav-item {
+	.main-nav-item {
 		width: 80px;
 		height: 80px;
 		border: none;
@@ -463,23 +969,23 @@
 		align-items: center;
 		justify-content: center;
 	}
-	.tony-nav-item span {
+	.main-nav-item span {
 		font-size: 12px;
 		margin-top: 10px
 	}
-	.tony-nav-item i {
+	.main-nav-item i {
 		font-size: 16px;
 	}
-	.background-profile {
+	.profile-background {
 		margin-top: 0;
 	}
-	.tony-footer-item {
+	.footer-item {
 		font-size: 20px;
 	}
-	.tony-body-inner {
+	.main-body-inner {
 		margin: 0 auto;
 	}
-	.main, .main-container, .main-outter-container {
+	.main-header, .main-card-container, .content-main-card {
 		width: 600px;
 		height: 600px;
 		border-radius: 5px;
@@ -490,18 +996,17 @@
 		height: 70px;
 		margin: 0 auto;
 	}
-	.tony-more-info {
-		width: 540px;
+	.profile-more-info {
 		margin: 80px auto 0 auto;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.tony-body {
+	.main-body {
 		flex-wrap: nowrap;
 		margin-top: calc((100vh - 650px) / 2);
 	}
-	.main-outter-container {
+	.content-main-card {
 		display: flex;
 		width: 1100px;
 		margin-left: calc(((100vw - 1100px) / 2) + 40px);
@@ -511,19 +1016,17 @@
 		margin-left: calc(((100vw - 1100px) / 2) - 45px);
 		margin-top: calc((100vh - 650px) / 2);
 	}
-	.tony-more-info {
-		width: 100%;
-		height: 580px;
-		margin: 0 auto;
+	.profile-more-info {
+		height: 650px;
 		overflow-y: scroll;
 		border-radius: 0 5px 5px 0;
-		margin-top: 10px;
+		margin: 10px auto 0;
 	}
-	.main-container {
+	.main-card-container {
 		box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 		z-index: 10;
 	}
-	.main, .background-profile {
+	.main-header, .profile-background {
 		border-radius: 5px 5px 0 0;
 	}
 	#style-10::-webkit-scrollbar {
