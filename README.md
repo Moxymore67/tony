@@ -6,12 +6,14 @@ This Git represents the continuation of my first project at the Wild Code School
 
 <h2>Languages and softwares used</h2>
 
-    • HTML 5
-    • CSS 3
-<li>JS</li>
-    • Codepen
-    • PHPStorm
-    • Git ;-) & GitHub
+<ul>
+  <li>HTML 5</li>
+  <li>CSS 3</li>
+  <li>JS</li>
+  <li>Codepen</li>
+  <li>PHPStorm</li>
+  <li>Git ;-) & GitHub</li>
+</ul>
 
 <h2>Versions</h2>
 
