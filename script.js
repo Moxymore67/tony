@@ -35,3 +35,9 @@ $(function(){
     $("#content-contact").show();
   });
 });
+
+$(function(){
+  $("#modal-close").click(function(){
+    $('#modal').hide();
+  });
+});
