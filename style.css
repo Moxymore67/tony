@@ -485,6 +485,10 @@ template {
 	========================================================================= */
 
 /* Generic */
+html {
+	scroll-behavior: smooth;
+}
+
 p, ul {
 	font-size: 16px;
 	margin: 20px 0 30px 0;
@@ -497,6 +501,10 @@ h2 {
 	padding-top: 7px;
 	padding-left: 3px;
 	font-weight: bold;
+}
+
+main {
+	width: 100%;
 }
 
 .top-negative {
@@ -852,29 +860,29 @@ h2 {
 
 /* Contact */
 .contact-form-item input, .contact-form-item select, .contact-form-item textarea{
-  width: 100%;
-  height: 30px;
-  border-radius: 5px;
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
 }
 
 .contact-form-item textarea{
-  height: 200px;
+	height: 200px;
 }
 
 .contact-form-item select{
-  height: 40px;
-  margin: 0;
-  width: calc(100% + 5px);
+	height: 40px;
+	margin: 0;
+	width: calc(100% + 5px);
 }
 
 .contact-form-button{
-  float: right;
-  height: 30px;
-  border-radius: 5px;
+	float: right;
+	height: 30px;
+	border-radius: 5px;
 }
 
 .contact-form{
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 /* Scroll to top */
@@ -888,13 +896,13 @@ h2 {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
-	transition: background-color .3s, 
-	  opacity .5s, visibility .5s;
+	transition: background-color .3s,
+	opacity .5s, visibility .5s;
 	opacity: 0;
 	visibility: hidden;
 	z-index: 1000;
-  }
-  #button::after {
+}
+#button::after {
 	content: "\f077";
 	font-family: FontAwesome, serif;
 	font-weight: normal;
@@ -902,25 +910,50 @@ h2 {
 	font-size: 2em;
 	line-height: 50px;
 	color: #fff;
-  }
-  #button:hover {
+}
+#button:hover {
 	cursor: pointer;
 	background-color: #333;
-  }
-  #button:active {
+}
+#button:active {
 	background-color: #555;
-  }
-  #button.show {
+}
+#button.show {
 	opacity: 1;
 	visibility: visible;
-  }
-  
-  @media print {
+}
+
+/* Popup no cookies */
+#modal{
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	min-height: 40px;
+	font-size: 16px;
+	background: #65a05a;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	color: white;
+	text-shadow: black 0px 0px 5px;
+	text-align: center;
+	padding: 15px 40px;
+}
+
+#modal-close {
+	position: fixed;
+	right: 15px;
+	font-size: 30px;
+}
+
+@media print {
 	.scrolltop-wrap {
-	  display: none !important;
+		display: none !important;
 	}
-  }
-  
+}
+
 
 /* 576px - 768px - 992px - 1200px */
 
