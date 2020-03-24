@@ -493,6 +493,7 @@ p, ul {
 	font-size: 16px;
 	margin: 20px 0 30px 0;
 	line-height: 26px;
+	text-align: justify;
 }
 
 h2 {

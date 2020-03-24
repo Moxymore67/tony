@@ -29,6 +29,6 @@ décide de prendre mon destin en main afin de travailler avec passion et non pas
 simplement pour payer mes factures!";
 $lang['CONTENT_ABOUT_TEXT_2']   =
 "Autodidacte pendant 4 ans, j'ai appris à programmer en HTML, CSS, et PHP, mais
-je désirais professionalisé et améliorer mes compétences. C'est pourquoi j'ai
+je désirais professionaliser et améliorer mes compétences. C'est pourquoi j'ai
 opté pour une formation de Développeur PHP Backend à la Wild Code School de
 Strasbourg.";
