@@ -7,29 +7,36 @@ This Git represents the continuation of my first project at the Wild Code School
 <h2>Languages and softwares used</h2>
 
 <ul>
-  <li>HTML 5</li>
-  <li>CSS 3</li>
-  <li>JS</li>
-  <li>Codepen</li>
-  <li>PHPStorm</li>
-  <li>Git ;-) & GitHub</li>
+    <li>HTML 5</li>
+    <li>CSS 3</li>
+    <li>JS</li>
+    <li>Codepen</li>
+    <li>PHPStorm</li>
+    <li>Git ;-) & GitHub</li>
 </ul>
 
 <h2>Versions</h2>
 
 <ul>
-  <h3>21/03/2020 - v2.2.1</h3>
-  <ul>
-    <li>Anchors added</li>
-    <li>No cookie modal popup added</li>
-    <li>Back to top bugfix</li>
-  </ul>
-  <h3>20/03/2020 - v2.0.0</h3>
-  <ul>
-    <li>The site is now dynamic (PHP 7.3)</li>
-  </ul>
-  <h3>15/03/2020 - v1.0.0</h3>
-  <ul>
-    <li>Initial release (static website)</li>
-  </ul>
+    <h3>25/03/2020 - v2.2.5</h3>
+    <ul>
+        <li>[MINOR] Better project structure (src folder added)</li>
+        <li>[MINOR] CSS improvements</li>
+        <li>[MINOR] Personal photo changed</li>
+        <li>[BUGFIX] Bugfix for custom overflow bar style which didn't worked</li>
+    </ul>
+    <h3>21/03/2020 - v2.2.1</h3>
+    <ul>
+        <li>[FEATURE] Anchors added</li>
+        <li>[FEATURE] No cookie modal popup added</li>
+        <li>[BUGFIX] Back to top bugfix</li>
+    </ul>
+    <h3>20/03/2020 - v2.0.0</h3>
+    <ul>
+        <li>[MAJOR] The site is now dynamic (PHP 7.3)</li>
+    </ul>
+    <h3>15/03/2020 - v1.0.0</h3>
+    <ul>
+        <li>Initial release (static website)</li>
+    </ul>
 </ul>

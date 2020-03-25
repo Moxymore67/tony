@@ -1,12 +1,12 @@
 <section class="content-main-card">
     <section class="main-card-container">
         <div class="main-header">
-            <img alt="Profile's background"
-                 class="profile-background"
-                 src="https://i.ibb.co/br01spM/tony-bg.png">
-            <img alt="Profile's picture | Alexandre MARK"
-                 class="profile-picture top-negative"
-                 src="https://i.ibb.co/VHDBrk0/tony-profile.jpg">
+            <div class="profile-background"></div>
+            <figure class="profile-container">
+                <img alt="Profile's picture | Alexandre MARK"
+                     class="profile-picture top-negative"
+                     src="/src/img/profile-photo.png">
+            </figure>
             <h1 class="profile-name top-negative">
                 Alexandre MARK
             </h1>

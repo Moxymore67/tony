@@ -4,7 +4,7 @@
  */
 ?>
 
-<main id="content-contact" class="profile-more-info" id="style-10">
+<main id="content-contact" class="profile-more-info style-10">
     <div class="contact-container">
         <h2 class="h2-main">Contact me dude !</h2>
         <form class="contact-form" action="#" method="$_GET">

@@ -23,12 +23,7 @@ $lang['MENU_WHO']               =   'Qui suis-je ?';
 // About Me Page
 $lang['CONTENT_ABOUT_ME']       =   'Présentation';
 $lang['CONTENT_ABOUT_TEXT']     =
-"Je m'apelle Alexandre MARK, développeur junior bourré d'enthousiasme. Après
-plusieurs années de travail dans des secteurs bien différents du codage, je
-décide de prendre mon destin en main afin de travailler avec passion et non pas
-simplement pour payer mes factures!";
-$lang['CONTENT_ABOUT_TEXT_2']   =
-"Autodidacte pendant 4 ans, j'ai appris à programmer en HTML, CSS, et PHP, mais
-je désirais professionalisé et améliorer mes compétences. C'est pourquoi j'ai
-opté pour une formation de Développeur PHP Backend à la Wild Code School de
-Strasbourg.";
+"Je m'apelle Alexandre MARK, développeur junior backend PHP/Symphony.
+Autodidacte pendant près de 5 ans, j'ai entrepris une formation qualifiante à la
+Wild Code School. Je maitrise en sus l'environnement Wordpress, et porte un vif
+intéret à l'UX/UI ainsi qu'au SEO.";

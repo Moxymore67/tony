@@ -4,12 +4,26 @@
  */
 ?>
 
-<main id="content-about" class="profile-more-info" id="style-10">
+<main id="content-about" class="profile-more-info style-10">
     <div class="about-container">
-        <h2 class="h2-main"><?php echo $lang['CONTENT_ABOUT_ME']; ?>
-        </h2>
-        <p><?php echo $lang['CONTENT_ABOUT_TEXT']; ?></p>
-        <p><?php echo $lang['CONTENT_ABOUT_TEXT_2']; ?></p>
+        <h2 class="h2-main"><?php echo $lang['CONTENT_ABOUT_ME']; ?></h2>
+        <div class="half-container">
+            <p><?php echo $lang['CONTENT_ABOUT_TEXT']; ?></p>
+        </div>
+        <div class="half-container">
+            <p class="split-text">
+                <strong>Age</strong>
+                <?php echo cvMyAge('07-02-1984'); ?>
+            </p>
+            <p class="split-text">
+                <strong>Country</strong>
+                France
+            </p>
+            <p class="split-text">
+                <strong>City</strong>
+                Strasbourg
+            </p>
+        </div>
     </div>
     <div class="soft-container">
         <h2 class="soft-skills">My soft skills</h2>
