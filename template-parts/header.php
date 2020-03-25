@@ -16,10 +16,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
           rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/circle.css">
     <script src="https://kit.fontawesome.com/1efff14242.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
             type="text/javascript"></script>
-    <script src="script.js"></script>
+    <script src="/src/js/script.js"></script>
 </head>
 
 <body class="main-body">

@@ -4,12 +4,26 @@
  */
 ?>
 
-<main id="content-resume" class="profile-more-info" id="style-10">
+<main id="content-resume" class="profile-more-info style-10">
     <div class="resume-container">
         <h2 class="resume-main-title">About me</h2>
-        <p class="email">tonyisarock@montana.world</p>
-        <p class="adress">Adress: Ocean Drive, Miami Beach</p>
-        <p class="birth">Birth : May 5, 1940</p>
+        <div class="half-container">
+            <p><?php echo $lang['CONTENT_ABOUT_TEXT']; ?></p>
+        </div>
+        <div class="half-container">
+            <p class="split-text">
+                <strong>Age</strong>
+                <?php echo cvMyAge('07-02-1984'); ?>
+            </p>
+            <p class="split-text">
+                <strong>City</strong>
+                Strasbourg
+            </p>
+            <p class="split-text">
+                <strong>Country</strong>
+                France
+            </p>
+        </div>
     </div>
     <div class="resume-container">
         <h2 class="resume-main-title">Experiences</h2>

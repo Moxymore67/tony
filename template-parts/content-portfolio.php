@@ -4,7 +4,7 @@
  */
 ?>
 
-<main id="content-portfolio" class="profile-more-info" id="style-10">
+<main id="content-portfolio" class="profile-more-info style-10">
     <div class="portfolio-container">
         <h2 class="h2-main">Portfolio</h2>
         <figure class="single-img-container image-hover img-shadow-1">
