@@ -6,107 +6,190 @@
 
 <main id="content-resume" class="profile-more-info style-10">
     <div class="resume-container">
-        <h2 class="resume-main-title">About me</h2>
+        <h2 class="resume-main-title gradient-border-title">Curriculum Vitae</h2>
+        <!-- EXPERIENCE -->
         <div class="half-container">
-            <p><?php echo $lang['CONTENT_ABOUT_TEXT']; ?></p>
+            <h3 class="resume-main-title">
+                <i class="fas fa-briefcase resume-icon"></i>
+                Expérience
+            </h3>
+            <div class="item-container">
+                <div class="resume-date">2018</div>
+                <h4 class="resume-page-title">Technico-commercial</h4>
+                <div class="resume-enterprise">DKM Experts @ Mulhouse (68)</div>
+                <p class="job-description">
+                    Etablissements de devis, interventions technique sur les
+                    lieux, SAV, facturations et gestion des paiements.
+                </p>
+            </div>
+            <div class="item-container">
+                <div class="resume-date">2016 - 2017</div>
+                <h4 class="resume-page-title">Conducteur de ligne</h4>
+                <div class="resume-enterprise">MUPA @ Ensisheim (68)</div>
+                <p class="job-description">
+                    Chargé d'une ligne de production de papier alimentaire :
+                    réglages machine, contrôle qualité...
+                </p>
+            </div>
+            <div class="item-container">
+                <div class="resume-date">2014 - 2015</div>
+                <h4 class="resume-page-title">Technicien de laboratoire</h4>
+                <div class="resume-enterprise">Sorifa @ Illkirch (67)</div>
+                <p class="job-description">
+                    Chargé de la préparation de divers produits cosmétiques
+                    et de la gestion logistique.
+                </p>
+            </div>
         </div>
+        <!-- DIPLOMES -->
         <div class="half-container">
-            <p class="split-text">
-                <strong>Age</strong>
-                <?php echo cvMyAge('07-02-1984'); ?>
-            </p>
-            <p class="split-text">
-                <strong>City</strong>
-                Strasbourg
-            </p>
-            <p class="split-text">
-                <strong>Country</strong>
-                France
-            </p>
+            <h3 class="resume-main-title">
+                <i class="fas fa-briefcase resume-icon"></i>
+                Diplôme
+            </h3>
+            <div class="item-container">
+                <div class="resume-date">2020</div>
+                <h4 class="resume-page-title">Développeur Backend PHP</h4>
+                <div class="resume-enterprise">Wild Code School</div>
+                <p class="job-description">
+                    HTML, CSS, JS, SQL, PHP, Symphony, Git, Shell, Wireframe...
+                </p>
+            </div>
+            <div class="item-container">
+                <div class="resume-date">2009 - 2012</div>
+                <h4 class="resume-page-title">Licence en Urbanisme</h4>
+                <div class="resume-enterprise">Université de Strasbourg</div>
+                <p class="job-description">
+                    Obtention de la licence en Aménagement du Territoire et
+                    Urbanisme avec mention "Assez Bien".
+                </p>
+            </div>
+            <div class="item-container">
+                <div class="resume-date">2007</div>
+                <h4 class="resume-page-title">DAEU option B</h4>
+                <div class="resume-enterprise">SERFA de Mulhouse</div>
+                <p class="job-description">
+                    Obtention du Diplôme d'Accès aux Etudes Universitaire
+                    option B avec mention "Bien".
+                </p>
+            </div>
         </div>
     </div>
     <div class="resume-container">
-        <h2 class="resume-main-title">Experiences</h2>
-        <div class="resume-item-container">
-            <div class="resume-date-functions">
-                <p class="resume-date">Feb. 1983 - Dec. 1983</p>
-                <p class="arrow">&gt;</p>
-                <p class="resume-functions">Mafia</p>
-            </div>
-            <div class="resume-skills">
-                <p class="fake"></p>
-                <div class="resume-item-skills">
-                    <ul>
-                        <li>Man with values</li>
-                        <li>Never kill child or woman</li>
-                        <li>Don't mess with me!</li>
-                        <li>Was fucked by the cartel from Bolivia. <span>I want my revenge!!!</span></li>
-                    </ul>
+        <h2 class="resume-main-title gradient-border-title">Mes compétences</h2>
+        <!-- COMPETENCES -->
+        <div class="half-container">
+            <h3 class="resume-main-title">
+                <i class="fas fa-briefcase resume-icon"></i>
+                Backend
+            </h3>
+            <div class="circle-item-container">
+                <div class="circle-flex-container">
+                    <div class="c100 p80 small">
+                        <span>80%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <p>PHP</p>
+                </div>
+                <div class="circle-flex-container">
+                    <div class="c100 p50 small">
+                        <span>50%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <p>SQL</p>
+                </div>
+                <div class="circle-flex-container">
+                    <div class="c100 p90 small">
+                        <span>90%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <p>HTML</p>
+                </div>
+                <div class="circle-flex-container">
+                    <div class="c100 p75 small">
+                        <span>75%</span>
+                        <div class="slice">
+                            <div class="bar"></div>
+                            <div class="fill"></div>
+                        </div>
+                    </div>
+                    <p>CSS</p>
                 </div>
             </div>
         </div>
-        <div class="resume-item-container">
-            <div class="resume-date-functions">
-                <p class="resume-date">Jan. 1982 - feb. 1983</p>
-                <p class="arrow">&gt;</p>
-                <p class="resume-functions">Drugs Lord</p>
-            </div>
-            <div class="resume-skills">
-                <p class="fake"></p>
-                <div class="resume-item-skills">
+        <!-- LANGUAGES -->
+        <div class="half-container">
+            <h3 class="resume-main-title">
+                <i class="fas fa-briefcase resume-icon"></i>
+                Langues
+            </h3>
+
+                <div class="progress-flex-container">
                     <ul>
-                        <li>Travelling a lot in Colombia</li>
-                        <li>Earned 75M $ off of 2 000 kg of cocaine</li>
-                        <li>Make about 10 - 15M $ every month</li>
-                        <li>Security</li>
+                        <li>Français</li>
+                        <div class="progress">
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                        </div>
+                        <li>Anglais</li>
+                        <div class="progress">
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                        </div>
+                        <li>Allemand</li>
+                        <div class="progress">
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                        </div>
+                        <li>Italien</li>
+                        <div class="progress">
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                            <span class="progress-dot empty-dot"></span>
+                        </div>
                     </ul>
                 </div>
-            </div>
+
         </div>
-        <div class="resume-item-container">
-            <div class="resume-date-functions">
-                <p class="resume-date">Aug. 1980 - dec. 1981</p>
-                <p class="arrow">&gt;</p>
-                <p class="resume-functions">Deal mule for Franck</p>
-            </div>
-            <div class="resume-skills">
-                <p class="fake"></p>
-                <div class="resume-item-skills">
-                    <ul>
-                        <li>Cold Blood</li>
-                        <li>Fearless</li>
-                        <li>Talk with drug cartel from Bolivia</li>
-                        <li>Have killed my boss and married his wife</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="resume-item-container">
-            <div class="resume-date-functions">
-                <p class="resume-date">May 1980 - Aug. 1980</p>
-                <p class="arrow">&gt;</p>
-                <p class="resume-functions">Dishwasher in a restaurant</p>
-            </div>
-            <div class="resume-skills">
-                <p class="fake"></p>
-                <div class="resume-item-skills">
-                    <ul>
-                        <li>Do it for money in a new country</li>
-                        <li>Realized that I'm worth more than that</li>
-                        <li>Talking about his hands, "They ought to be picking gold from the street"</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="soft-container">
-        <h2 class="h2-skills">Skills</h2>
-        <ul class="resume-soft-skills">
-            <li>Never touch my sister</li>
-            <li>Never kill woman or a child</li>
-            <li>Well dressed</li>
-            <li>Fearless</li>
-            <li>Know what I want</li>
-        </ul>
     </div>
 </main>

@@ -31,13 +31,12 @@
         </div>
 
         <a id="button"></a>
-        <footer class="footer">
+        <footer id="anchor" class="footer">
             <a class="footer-item" href="#">
                 <span class="link"><?php echo $lang['MENU_DOWNLOAD']; ?></span>
                 <i class="fas fa-download"></i>
             </a>
-            <a id="anchor" class="footer-item"
-               href="#anchor">
+            <a id="quisuisje" class="footer-item" href="#anchor">
                 <span class="link"><?php echo $lang['MENU_WHO']; ?></span>
                 <i class="fas fa-user-tie"></i>
             </a>

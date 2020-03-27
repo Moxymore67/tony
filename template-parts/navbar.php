@@ -18,6 +18,10 @@
             <i class="fas fa-photo-video"></i>
             <span class="link"><?php echo $lang['MENU_PORTFOLIO']; ?></span>
         </a>
+        <a id="nav-blog" class="main-nav-item" href="#anchor">
+            <i class="fas fa-comment-dots"></i>
+            <span class="link"><?php echo $lang['MENU_BLOG']; ?></span>
+        </a>
         <a id="nav-contact" class="main-nav-item" href="#anchor">
             <i class="fas fa-envelope"></i>
             <span class="link"><?php echo $lang['MENU_CONTACT_ME']; ?></span>

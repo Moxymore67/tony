@@ -18,7 +18,7 @@ function cvMyAge($date) { // Y-m-d format
             $dif -= 1;
         }
         elseif ($dob[2] == $now[2]) { // Happy Birthday!
-            $dif;
+            $dif=$dif;
         }
     }
     return $dif;
@@ -29,4 +29,30 @@ function cvMyAge($date) { // Y-m-d format
  */
 function cvOneSpaceOnlyForString($string) {
     return preg_replace('/\s+/', ' ', trim($string));
+}
+
+
+/**
+ * RSS Fetcher from httpx://www.quesacode.fr
+ */
+function cvRssFetch() {
+    $rssObj = simplexml_load_file("https://www.quesacode.fr/feed/");
+    foreach ($rssObj[0]->channel[0]->item as $item){
+        $descArray = explode('<-|->', $item->description);
+        $imgUrl = $descArray[0];
+        $descText = $descArray[1]; ?>
+        <a href="<?php echo $item->link; ?>" target="_blank">
+            <figure class="single-img-container image-hover img-shadow-1">
+                <?php echo cvOneSpaceOnlyForString('<img src="' . $imgUrl
+                    . '" alt="Image de l\'article ' . $item->title . '">'); ?>
+                <div class="anti-overlay">
+                    <h3><?php echo $item->title; ?></h3>
+                    <p class="date"><?php echo $item->pubDate; ?></p>
+                </div>
+                <div class="overlay">
+                    <p><?php echo $descText; ?></p>
+                </div>
+            </figure>
+        </a><?php
+    }
 }
